@@ -28,12 +28,11 @@ float volumeAssigner()                                                          
 
 int main()
 {
-	Server server;
+	Server* server = new Server();
+	thread serverThread(&Server::server_main, server);				                                 // Thread for the server, so that the main and server can run independtly of each other.
 	Notes note;
 	Play Playnotes;
 	Playnotes.start_Sound();                                                                         // start_Sound sets up the necessary settings for the soundfont to work, then plays one note to load the soundfont into memory.
-	server.server_main();			                                                                 // Thread for the server, so that the main and server can run independtly of each other.
-																	                                 // Print statement to verify thread is succesfully created.
 
 	while (true) {                                                                                   // This while loop runs infinitely until the program is shut down.
 		if (getData == true)                                                                         // This if statement ensures that the program will not play several notes in quick succession if the user did not do it on purpose. 

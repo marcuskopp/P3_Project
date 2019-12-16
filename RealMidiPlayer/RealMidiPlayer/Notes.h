@@ -2,10 +2,12 @@
 #define NOTES_H
 #include <iostream>
 
+extern int recvArray[3];
+
 class Notes
 {
 private:
-	int recvArray[3];
+	
 	const int maxSection = 13;
 	float sections[13];
 public:

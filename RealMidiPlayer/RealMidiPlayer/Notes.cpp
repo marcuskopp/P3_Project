@@ -3,8 +3,7 @@
 using namespace std;
 
 Notes::Notes()
-{
-	int recvArray[3];                                                                               //Place 0 is the max distance, place 1 is current distance, and place 2 is the velocity
+{                                                                            //Place 0 is the max distance, place 1 is current distance, and place 2 is the velocity
 	const int maxSection = 13;																		//The number of sectors that the program can choose from, representing the neck intervals of one string
 	float sections[maxSection];																	    //This array stores the size of the different sectors for the sorting algorithm
 }
@@ -30,7 +29,7 @@ int Notes::noteAssigner()                                                       
 			int sector = i + 1;											                            //The sector to be played (Sector not allow to be zero, hence the +1)
 			cout << "sector: " << sector << endl;
 			return sector;                                                                          //Returns the value to main.
-		}
+		} // i + 1
 	}
 	cout << "The length inputted is either above the maximum arm distance or below zero." << endl;  //Cout statement to point out if a flaw with the maximum distance is detected
 	return 1;																						//Default return

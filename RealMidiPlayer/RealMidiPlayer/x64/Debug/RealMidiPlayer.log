@@ -1,14 +1,8 @@
-﻿  minisdl_audio.c
-  Notes.cpp
-C:\Users\spytt\Desktop\MED3_Project-classes_without_multithreading\MED3_Project-With-classes\MED3_Project-With-classes\RealMidiPlayer\RealMidiPlayer\Notes.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\spytt\Desktop\MED3_Project-classes_without_multithreading\MED3_Project-With-classes\MED3_Project-With-classes\RealMidiPlayer\RealMidiPlayer\Notes.cpp(9,8): warning C4101: 'sections': unreferenced local variable
-C:\Users\spytt\Desktop\MED3_Project-classes_without_multithreading\MED3_Project-With-classes\MED3_Project-With-classes\RealMidiPlayer\RealMidiPlayer\Notes.cpp(7,6): warning C4101: 'recvArray': unreferenced local variable
-C:\Users\spytt\Desktop\MED3_Project-classes_without_multithreading\MED3_Project-With-classes\MED3_Project-With-classes\RealMidiPlayer\RealMidiPlayer\Notes.cpp(14,40): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+﻿  Notes.cpp
+C:\Users\louis\Downloads\P3_Project-master\P3_Project-master\RealMidiPlayer\RealMidiPlayer\Notes.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\louis\Downloads\P3_Project-master\P3_Project-master\RealMidiPlayer\RealMidiPlayer\Notes.cpp(8,8): warning C4101: 'sections': unreferenced local variable
+C:\Users\louis\Downloads\P3_Project-master\P3_Project-master\RealMidiPlayer\RealMidiPlayer\Notes.cpp(13,40): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\louis\Downloads\P3_Project-master\P3_Project-master\RealMidiPlayer\RealMidiPlayer\Notes.cpp(14,20): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
   RealMidiPlayer.cpp
-  server.cpp
-C:\Users\spytt\Desktop\MED3_Project-classes_without_multithreading\MED3_Project-With-classes\MED3_Project-With-classes\RealMidiPlayer\RealMidiPlayer\Notes.cpp(15,20): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
-  Sound.cpp
-C:\Users\spytt\Desktop\MED3_Project-classes_without_multithreading\MED3_Project-With-classes\MED3_Project-With-classes\RealMidiPlayer\RealMidiPlayer\server.cpp(79,4): error C3861: 'recieveData': identifier not found
-  DataCollection.cpp
   Generating Code...
-C:\Users\spytt\Desktop\MED3_Project-classes_without_multithreading\MED3_Project-With-classes\MED3_Project-With-classes\RealMidiPlayer\RealMidiPlayer\Sound.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  RealMidiPlayer.vcxproj -> C:\Users\louis\Downloads\P3_Project-master\P3_Project-master\RealMidiPlayer\x64\Debug\RealMidiPlayer.exe
